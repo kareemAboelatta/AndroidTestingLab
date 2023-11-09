@@ -5,13 +5,6 @@ import org.junit.Test
 
 class TemperatureUtilsTest {
 
-    @Test
-    fun celsiusToFahrenheit() {
-    }
-
-    @Test
-    fun fahrenheitToCelsius() {
-    }
 
     @Test
     fun whenConvertCelsiusToFahrenheit_ShouldReturnCorrectResult() {
