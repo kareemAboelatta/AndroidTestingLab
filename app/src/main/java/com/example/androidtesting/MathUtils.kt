@@ -36,3 +36,47 @@ object BmiCalculator {
 }
 
 
+object FibCalculator {
+
+   fun fib(n: Int):Long{
+       if (n < 0)
+           throw IllegalArgumentException()
+
+       if ((n == 0) or (n == 1)){
+           return n.toLong()
+       }
+
+       var a= 0L
+       var b= 1L
+       var c= 1L
+       (1..n-1).forEach { i->
+           c=a+b
+           a=b
+           b=c
+       }
+       return c
+   }
+
+
+
+
+}
+
+
+
+
+//0 1 1 2 3 5    8 13 21 34 55 89
+
+
+
+
+
+
+
+
+
+
+
+
+
+
