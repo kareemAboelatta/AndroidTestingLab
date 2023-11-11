@@ -34,12 +34,10 @@ class FibCalculatorTest{
     @Test
     fun whenEnterPositiveNumberShouldReturnRightResult() {
         val number = 10
-        val rightAnswer = fibByRightWay(10)
-        val result = FibCalculator.fib(number)
+        val rightAnswer = fibByRightWay(number)
+        val result = FibCalculator.fib(number) // fun we want to test
         Truth.assertThat(result).isEqualTo(rightAnswer)
     }
-
-
 
 
 
