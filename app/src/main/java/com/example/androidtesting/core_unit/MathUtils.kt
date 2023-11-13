@@ -1,4 +1,4 @@
-package com.example.androidtesting
+package com.example.androidtesting.core_unit
 
 object MathUtils {
 

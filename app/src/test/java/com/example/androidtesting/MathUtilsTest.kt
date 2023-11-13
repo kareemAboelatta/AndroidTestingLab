@@ -1,5 +1,6 @@
 package com.example.androidtesting
 
+import com.example.androidtesting.core_unit.MathUtils
 import com.google.common.truth.Truth.assertThat
 import org.junit.Test
 

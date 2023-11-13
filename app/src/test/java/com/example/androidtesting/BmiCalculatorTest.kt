@@ -1,6 +1,6 @@
 package com.example.androidtesting
 
-import org.junit.jupiter.api.Assertions.*
+import com.example.androidtesting.core_unit.BmiCalculator
 
 import com.google.common.truth.Truth.assertThat
 import org.junit.Test

@@ -1,6 +1,10 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id( "kotlin-kapt")
+    id("com.google.devtools.ksp")
+
+    id( "dagger.hilt.android.plugin")
 }
 
 android {
@@ -49,5 +53,38 @@ dependencies {
 
     testImplementation ("com.google.truth:truth:1.0.1")
     androidTestImplementation ("com.google.truth:truth:1.0.1")
+
+
+    // Retrofit
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation ("com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.3")
+
+
+    // Lifecycle
+    implementation ("androidx.lifecycle:lifecycle-extensions:2.2.0" )
+    implementation ("androidx.lifecycle:lifecycle-livedata-ktx:2.6.2")
+    implementation ("androidx.lifecycle:lifecycle-runtime:2.6.2")
+    implementation ("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
+
+    // Room
+    implementation ("androidx.room:room-runtime:2.6.0")
+    kapt ("androidx.room:room-compiler:2.6.0")
+
+
+
+    // Glide
+    implementation ("com.github.bumptech.glide:glide:4.13.1")
+    kapt ("com.github.bumptech.glide:compiler:4.11.0")
+
+    // Activity KTX for viewModels()
+    implementation ("androidx.activity:activity-ktx:1.8.0")
+
+    //Dagger - Hilt
+    implementation ("com.google.dagger:hilt-android:2.48")
+    kapt ("com.google.dagger:hilt-android-compiler:2.44")
+
+    implementation ("androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03")
+    kapt ("androidx.hilt:hilt-compiler:1.1.0")
 
 }

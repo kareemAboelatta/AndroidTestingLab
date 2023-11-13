@@ -1,8 +1,8 @@
 package com.example.androidtesting
 
+import com.example.androidtesting.core_unit.FibCalculator
 import com.google.common.truth.Truth
 import org.junit.Test
-import org.junit.jupiter.api.Assertions.*
 
 class FibCalculatorTest{
 

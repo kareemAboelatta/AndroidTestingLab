@@ -1,4 +1,4 @@
-package com.example.androidtesting
+package com.example.androidtesting.core_unit
 
 import android.content.Context
 import androidx.annotation.StringRes
