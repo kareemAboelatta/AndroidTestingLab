@@ -58,7 +58,7 @@ dependencies {
     testImplementation ("org.robolectric:robolectric:4.3.1")
     testImplementation ("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.2.1")
     testImplementation ("com.google.truth:truth:1.0.1")
-    testImplementation ("org.mockito:mockito-core:2.25.0")
+    testImplementation ("org.mockito:mockito-core:2.28.2")
 
 
     // Instrumented Unit Tests
@@ -66,10 +66,12 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     androidTestImplementation ("com.linkedin.dexmaker:dexmaker-mockito:2.28.3")
 
+
     androidTestImplementation ("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.2.1")
     androidTestImplementation ("androidx.arch.core:core-testing:2.2.0")
-    androidTestImplementation ("org.mockito:mockito-core:2.25.0")
+    androidTestImplementation ("org.mockito:mockito-core:2.28.2")
     androidTestImplementation ("com.google.truth:truth:1.0.1")
+
 
 
     // Retrofit
